@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(#e92e3d, #ff6e6a) 0 100% no-repeat;
+  background-size: 100% 50%;
+}
+.main {
+  position:absolute;
+  border-radius: 24px;
+  background: #f0f0f0;
+  box-shadow: 9px 9px 28px #bebebe, -9px -9px 28px #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 35%;
+  height: 50%;
+  min-height:284px ;
+  min-width: 247px;
+  max-width: 365px;
+  max-height: 300px;
+}
+.main .dice img{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .dice button{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 10%;
+  border-radius: 8px;
+  font-size: 3vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fc6060;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.main .dice button:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.main #number{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%,-50%);
+  color: #e92e3d;
+  font-family: sans-serif;
+  font-weight: 700;
+  width: 100%;
+}
